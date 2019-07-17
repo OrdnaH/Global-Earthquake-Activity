@@ -1,5 +1,4 @@
 var url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-
 $.getJSON(url, function(data) { createMap(data, myMap); });
 
 var myMap = L.map("map", {
@@ -17,7 +16,6 @@ function getColor(a) {
 };
 
 function createMap(data, myMap) {
-
   var earthquakes = L.geoJson(data, {
     onEachFeature: function(feature, layer) {
       var popupOptions = {
