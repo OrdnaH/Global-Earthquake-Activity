@@ -10,7 +10,7 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 ## Summary (with links to my code and final results)
 
-* Using Leaflet and the USGS GeoJson feed, create a map that displays live seismic activity.  After selecting a dataset and creating a basic map, Mapbox is used to tie in additional layers with the data, ultimately giving us our [map](Images/Earthquake_map_dark.png).
+* Using Leaflet and the USGS GeoJson feed, create a map that displays live seismic activity.  After selecting a dataset and creating a basic map, Mapbox is used to tie in additional layers with the data, ultimately giving us our [map](Images/Earthquake_map_dark.jpg) .
 
 ![Code_Snippet](Images/code.png)
 
