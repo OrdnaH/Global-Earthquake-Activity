@@ -1,4 +1,4 @@
-# Unit 17 | Assignment - Visualizing Data with Leaflet
+# Visualizing GeoJSON Data using Leaflet
 
 ## Background
 
@@ -10,7 +10,7 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 ## Summary (with links to my code and final results)
 
-* Using Leaflet and the USGS GeoJson feed, create a map that displays live seismic activity.  After selecting a dataset and creating a basic map, Mapbox is used to tie in additional layers with the data, ultimately giving us our [map](Images/Earthquake_map_dark.jpg) .
+* Retrieve the USGS dataset using a jQuery/AJAX request. Then, use Leaflet to create a map to display the seismic activity.  After loading the dataset and creating a basic map, Mapbox is also used to add in additional layers, ultimately giving us our [map](Images/Earthquake_map_dark.jpg) .
 
 ![Code_Snippet](Images/code.png)
 
@@ -39,15 +39,3 @@ Your first task is to visualize an earthquake data set.
    * Create a legend that will provide context for your map data.
 
    * Your visualization should look something like the map above.
-
-### Assessment
-
-Your final product will be assessed on the following metrics:
-
-* Completion of assigned tasks
-
-* Visual appearance
-
-* Professionalism
-
-**Good luck!**
